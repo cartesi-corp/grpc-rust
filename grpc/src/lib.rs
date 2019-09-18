@@ -37,7 +37,7 @@ mod stream_item;
 mod error;
 mod futures_grpc;
 mod iter;
-mod marshall;
+pub mod marshall;
 mod metadata;
 mod method;
 
